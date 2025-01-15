@@ -2,7 +2,6 @@ import tomllib
 from pathlib import Path
 
 CONFIG_PATH = Path("config.toml")
-print("called")
 
 monitor_ids: set[int]
 
